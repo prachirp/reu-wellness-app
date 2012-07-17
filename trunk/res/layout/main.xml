@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView
+    android:id="@+id/main_hello"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/main_welcome"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainInfo"
+    android:text="@string/main_info" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainWithings"
+    android:text="@string/main_withings" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainKcal"
+    android:text="@string/main_kCal" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainFitbit"
+    android:text="@string/main_fitbit" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainMsgUser"
+    android:text="@string/main_msgusr" />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainMsgAll"
+    android:text="@string/main_msgall" />
+<Button 
+    android:id="@+id/button8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    		android:onClick="mainDining"
+    android:text="Healthy Dining Options" />
+
+<Button
+    android:id="@+id/button7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:onClick="mainLogout"
+    android:text="@string/main_logout" />
+
+</LinearLayout>
