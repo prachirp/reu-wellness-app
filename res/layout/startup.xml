@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startup_welcome"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/startup_new_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startupNewAcct"
+            android:text="@string/startup_new_acct" />
+
+        <TextView
+            android:id="@+id/existing_uname_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/existing_uname"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/existing_uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/existing_passwd_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/existing_passwd"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/existing_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/existing_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/existing_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="existingAcctLogin"
+            android:text="@string/existing_login" />
+
+<!--         <Button
+            android:id="@+id/startup_existing_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startupExistingAcct"
+            android:text="@string/startup_existing_acct" /> -->
+
+    </LinearLayout>
+    
+
+</ScrollView>
